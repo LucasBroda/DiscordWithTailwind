@@ -6,12 +6,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   content: [],
   theme: {
-    colors: {
-      primary: '#202225',
-      secondary: '#5865f2',
+    extend: {
+      colors: {
+        primary: '#202225',
+        secondary: '#5865f2',
     },
-    extend: {},
   },
   plugins: [],
-}
-
+}}
