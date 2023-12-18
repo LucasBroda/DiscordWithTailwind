@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Building a replica of Discord using React and TailwindCSS ! 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### I decided to make a replica of Discord to learn more about styling with TailwindCSS.
 
-## Available Scripts
+### This README will be used as a summary of every new things I have learned while making this project with a screenshot of what it does on the replica
 
-In the project directory, you can run:
+### The first thing I added to my replica is a side bar with a bunch of icons to fill the side bar to make it less empty.
 
-### `npm start`
+![Alt image](/discord-with-tailwind/images/Sidebar.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Here I have just created two components, a sidebar component and a sidebar-icons component, the only new thing that I have used is the tailwind class system that allow us to apply style on specific classes (just like CSS lul, nothing really special here, I just wanted to try it)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Alt image](/discord-with-tailwind/images/Hover.png)
 
-### `npm test`
+### After this, I added a hover function on the icons (with the hover function of tailwind)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Alt image](/discord-with-tailwind/images/HoverText.png)
 
-### `npm run build`
+### I also added an another hover function that display a little text when you're on an icon, for that, I have used the ***group*** tailwind function.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### How does it work ? It's really simple, you declared a parent div with the ***group*** function, so every "child" of this div will see his state change when the state of the parent div change.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Alt image](/discord-with-tailwind/images/Capture%20d’écran%20du%202023-12-18%2020-08-37.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### To be continued ...
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
